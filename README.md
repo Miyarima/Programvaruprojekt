@@ -7,7 +7,6 @@ Connectitude är en mest kompletta IIoT-plattform för bygger och fabrik som erb
 ### Table of Contents
 
 -   [Install](#installation)
--   [Docker](#docker)
 -   [Database](#database)
 -   [Documentation](#documentation)
 -   [Team](#team)
