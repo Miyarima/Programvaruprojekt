@@ -41,3 +41,6 @@ git clone git@github.com:Miyarima/Programvaruprojekt.git
 
 -   [**Jonathan**](https://github.com/Miyarima)
 -   [**Alexander**](https://github.com/A-Norre)
+-   [**Charlie**](https://github.com/Chbe19)
+-   [**Basel**](https://github.com/Basel-Aljazaeri)
+-   [**Axel**](https://github.com/axkl20)
