@@ -6,6 +6,8 @@ Connectitude är en mest kompletta IIoT-plattform för bygger och fabrik som erb
 
 test
 
+test2
+
 ### Table of Contents
 
 -   [Install](#installation)
