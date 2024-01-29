@@ -4,6 +4,8 @@
 
 Connectitude är en mest kompletta IIoT-plattform för bygger och fabrik som erbjuder visualiseringar, OEE, insikt och förebyggande åtgärder. Läs kundomdömen från olika yrkesgrupper som använder Connectitude för att optimera sitt arbete och förebygga problem.
 
+test
+
 ### Table of Contents
 
 -   [Install](#installation)
