@@ -1,0 +1,14 @@
+<div *ngFor="let item of data">
+  <p>{{ item }}</p>
+</div>
+
+<form (submit)="onSubmit()">
+  <input
+    type="text"
+    placeholder="Write a message"
+    [(ngModel)]="userInput"
+    name="userInput"
+    required
+  />
+  <button class="button" type="submit">Submit</button>
+</form>
