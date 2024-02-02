@@ -1,6 +1,13 @@
-<div *ngFor="let item of data">
-  <p>{{ item }}</p>
-</div>
+<section class="chat">
+  <div *ngFor="let item of data">
+    <p
+      [ngClass]="{ user: item[0] === 'user', gpt: item[0] === 'gpt' }"
+      class="text"
+    >
+      {{ item[1] }}
+    </p>
+  </div>
+</section>
 
 <form (submit)="onSubmit()">
   <input

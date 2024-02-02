@@ -1,9 +1,9 @@
 input[type="text"] {
   padding: 0 1em;
-  border: 2px solid #dfdfdf;
+  border: 1px solid #ccc;
   border-radius: 10px;
   height: 44px;
-  width: 83%;
+  width: 81.5%;
 }
 
 input[type="text"]:focus {
@@ -31,8 +31,46 @@ form {
   padding: 0 1em;
   transition: all 0.2s, box-shadow 0.08s ease-in;
   user-select: none;
+  margin-left: 1em;
 }
 
-.button:focus {
-  background-color: #2544f5;
+.button:hover {
+  background-color: #2c4af5;
+}
+
+.button:active {
+  background-color: #1d3df7;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+  transition: ease-in 0.1s;
+}
+
+.chat {
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  height: 400px;
+  overflow-y: auto;
+  margin-bottom: 1em;
+}
+
+.text {
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.user {
+  background-color: #eaf0f6;
+  width: fit-content;
+  padding: 0.5em 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 20px;
+}
+
+.gpt {
+  background-color: #63bbe9;
+  width: fit-content;
+  padding: 0.5em 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 20px;
 }

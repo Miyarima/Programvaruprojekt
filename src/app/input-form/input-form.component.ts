@@ -12,20 +12,20 @@ import { FormsModule } from '@angular/forms';
 })
 export class InputFormComponent {
   userInput = '';
-  data: string[] = [];
+  data: string[][] = [];
   url: string = 'https://localhost:7004/OpenAi/CompleteSentece';
 
   constructor(private http: HttpClient) {}
 
   onSubmit() {
-    this.data.push(this.userInput);
+    this.data.push(['user', this.userInput]);
     this.http
       .request('POST', this.url, {
         params: { text: this.userInput },
         responseType: 'text',
       })
       .subscribe((response) => {
-        this.data.push(response);
+        this.data.push(['gpt', response]);
       });
 
     this.userInput = '';
